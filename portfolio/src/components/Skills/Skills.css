@@ -1,0 +1,281 @@
+/* ===============================
+   SKILLS SECTION
+================================= */
+
+.skills-section {
+  position: relative;
+  padding: 90px 0;
+  background: linear-gradient(180deg, #5f0db9 0%, #4b0ca0 100%);
+  overflow: hidden;
+}
+
+/* ===============================
+   SECTION TITLE
+================================= */
+
+.skills-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  margin-bottom: 45px;
+
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.skills-title svg {
+  color: #ffffff;
+}
+
+.skills-title span {
+  color: #ffd34d;
+}
+
+/* ===============================
+   GRID WRAPPER
+================================= */
+
+.skills-wrapper {
+  background: rgba(16, 7, 38, 0.45);
+
+  border-radius: 18px;
+
+  padding: 22px;
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+      0 15px 40px rgba(0,0,0,.25);
+}
+
+/* ===============================
+   CARD
+================================= */
+
+.skill-card {
+
+  background: #12091f;
+
+  border-radius: 12px;
+
+  text-decoration: none;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 24px 15px;
+
+  transition: .35s ease;
+
+  border: 1px solid transparent;
+
+  cursor: pointer;
+}
+
+.skill-card:hover {
+
+  transform: translateY(-8px);
+
+  border-color: rgba(255,255,255,.15);
+
+  background: #1b0d2e;
+
+  box-shadow:
+      0 15px 35px rgba(0,0,0,.35);
+}
+
+/* ===============================
+   ICON
+================================= */
+
+.skill-icon {
+
+  width: 52px;
+
+  height: 52px;
+
+  object-fit: contain;
+
+  margin-bottom: 15px;
+
+  transition: .4s ease;
+}
+
+.skill-card:hover .skill-icon {
+
+  transform: scale(1.12) rotate(4deg);
+}
+
+/* ===============================
+   NAME
+================================= */
+
+.skill-name {
+
+  color: #ffffff;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  text-align: center;
+
+  margin: 0;
+}
+
+/* ===============================
+   BOOTSTRAP COLUMN SPACING
+================================= */
+
+.skills-section .row>*{
+
+    margin-bottom:24px;
+}
+
+/* ===============================
+   RESPONSIVE
+================================= */
+
+@media (max-width:1200px){
+
+.skills-title{
+
+font-size:2rem;
+
+}
+
+.skill-card{
+
+padding:22px 12px;
+
+}
+
+}
+
+@media (max-width:992px){
+
+.skills-section{
+
+padding:80px 0;
+
+}
+
+.skills-title{
+
+font-size:1.9rem;
+
+margin-bottom:35px;
+
+}
+
+.skill-icon{
+
+width:46px;
+
+height:46px;
+
+}
+
+.skill-name{
+
+font-size:15px;
+
+}
+
+}
+
+@media (max-width:768px){
+
+.skills-wrapper{
+
+padding:18px;
+
+}
+
+.skills-title{
+
+font-size:1.7rem;
+
+}
+
+.skill-card{
+
+padding:20px 10px;
+
+}
+
+.skill-icon{
+
+width:42px;
+
+height:42px;
+
+}
+
+.skill-name{
+
+font-size:14px;
+
+}
+
+}
+
+@media (max-width:576px){
+
+.skills-section{
+
+padding:70px 0;
+
+}
+
+.skills-title{
+
+font-size:1.45rem;
+
+gap:8px;
+
+}
+
+.skills-wrapper{
+
+padding:14px;
+
+border-radius:14px;
+
+}
+
+.skill-card{
+
+padding:18px 8px;
+
+}
+
+.skill-icon{
+
+width:38px;
+
+height:38px;
+
+margin-bottom:12px;
+
+}
+
+.skill-name{
+
+font-size:13px;
+
+}
+
+}
