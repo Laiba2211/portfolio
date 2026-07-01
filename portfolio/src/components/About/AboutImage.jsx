@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { Download } from "lucide-react";
 
-import aboutImage from "../../assets/images/Laiba.png";
+// import aboutImage from "../../assets/images/Laiba.png";
+import img from "../../assets/images/Laiba_img.avif";
 
 const AboutImage = () => {
   return (
@@ -13,7 +14,7 @@ const AboutImage = () => {
       transition={{ duration: 0.8 }}
     >
       <div className="about-image">
-        <img src={aboutImage} alt="Laiba Afzal" />
+        <img src={img} alt="Laiba Afzal" />
       </div>
 
       {/* Resume Button */}
